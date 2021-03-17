@@ -1,6 +1,7 @@
 ﻿using System;
+using SortingProjectCode.Sort;
 
-namespace SortingProject
+namespace SortingProjectCode
 {
     class Program
     {
@@ -20,8 +21,14 @@ namespace SortingProject
 
 
             //3.插入排序算法
-            insertSort sort = new insertSort();
-            int[] resultArrary = sort.insert_Sort(sourceArray);
+            //insertSort sort = new insertSort();
+            //int[] resultArrary = sort.insert_Sort(sourceArray);
+
+
+            // 4.希尔排序
+            shellSort sort = new shellSort();
+            int[] resultArrary = sort.shell_Sort(sourceArray);
+
 
             for (int i = 0; i < resultArrary.Length; i++)
             {
