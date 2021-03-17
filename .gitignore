@@ -1,2 +1,3 @@
-bin/
-obj/
+/SortingProjectCode/obj/*
+/SortingProjectCode/bin/*
+/SortingProjectCode/.vs/*
