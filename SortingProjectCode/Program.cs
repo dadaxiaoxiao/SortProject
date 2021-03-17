@@ -26,8 +26,14 @@ namespace SortingProjectCode
 
 
             // 4.希尔排序
-            shellSort sort = new shellSort();
-            int[] resultArrary = sort.shell_Sort(sourceArray);
+            //shellSort sort = new shellSort();
+            //int[] resultArrary = sort.shell_Sort(sourceArray);
+
+            // 5.归并排序
+
+            mergeSort sort = new mergeSort();
+            int[] resultArrary = sourceArray;
+            sort.MergeSort(resultArrary);
 
 
             for (int i = 0; i < resultArrary.Length; i++)
